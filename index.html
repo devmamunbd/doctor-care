@@ -8,10 +8,35 @@
       type="image/x-icon"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-primary: #00856f;
+        --color-green-light: #dce9e2;
+        --color-green-light-02: #f7f9f9;
+        --color-brand-beige: #fffaf1;
+        --color-brand-hover: #02453a;
+        --font-primary: "DM Sans", sans-serif;
+      }
+    </style>
     <title>Doctor Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
+    <header>
+      <h1 class="text-3xl font-bold underline text-primary font-primary">
+        Hello world!
+      </h1>
+    </header>
     <script src="./js/script.js"></script>
   </body>
 </html>
